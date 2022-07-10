@@ -1,0 +1,145 @@
+
+/* start of styling header section */
+ul{list-style-type: none;}
+span{color: rgb(0, 157, 255);}
+.logo{color: white;
+font-weight: 700;
+padding-left: 100px;
+}
+ul.header-links{color: rgb(12, 214, 42);
+font-size: 20px;
+font-weight: 500;
+padding-right: 100px;}
+.container-header{
+  background: #1f2937;
+  display: flex;
+  align-items: center;}
+  ul.header-links{display: flex;
+  margin-left: auto;
+gap: 20px;}
+  /* end of styling header section */
+
+  /* start of styling main-content section */
+.main-text{font-size: 48px;
+font-weight:bolder;
+color:#f9faf8;
+padding-left: 100px;}
+.sec-text{
+  padding-left: 100px;
+  font-size: 18px;
+color: #e5e7eb;}
+.hero-button{margin-top: 10px;
+margin-left: 100px;
+font-size: 24px;
+color: #f9faf8;
+background-color:  rgb(0, 157, 255);
+border-style: none;
+border-radius: 5px;
+font-weight: bold;
+height: 40px;
+width: 120px;}
+img.earth-pic{ max-width: 540x;
+max-height: 340px;
+padding-right: 100px;}
+.container-content{background:#1f2937 ;
+display: flex;
+align-items: center;
+height: 500px;}
+
+  /*end of styling main-content section  */
+  /* start of styling of info section */
+  .info-header{font-size: 36px;
+  font-weight: 900;
+color: #1f2937;
+display: flex;
+justify-content: center;
+margin-top: 40px;
+margin-bottom: 40px;}
+img.pic{
+  border: 4px solid  rgb(0, 157, 255);
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+}
+.container-info{display: flex;
+  
+align-items: center;
+justify-content: center;
+gap: 25px;}
+.info-text{font-weight: 560;
+width: 200px;
+height: 200px;
+}
+ /* end of styling of info section */
+
+ /* start of styling of quote section */
+ .quote{font-size: 36px;
+font-style: italic;
+color: #1f2937;}
+.author{font-weight: 700;
+font-size: 20px;
+padding-left: 500px;
+}
+.container-quote{
+  margin-bottom: 110px;
+  padding-left: 300px;
+  padding-right: 300px;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+justify-content: center;
+background: #e5e7eb;
+}
+ /* end of styling of quote section */
+ /* start of styling last section */
+ .action{color: white;
+font-weight: bolder;
+font-size: 30px;
+padding-left: 150px;
+
+}
+.last-two{font-size: 20px;
+color: white;
+padding-left: 150px;
+}
+.last-button{
+  font-size: 24px;
+  color: #f9faf8;
+  background-color:  rgb(0, 157, 255);
+  border:2px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+  height: 40px;
+  width: 120px;
+margin-left: auto;
+margin-right: 100px;}
+  .container-last{background: rgb(0, 157, 255);
+  display: flex;
+align-items: center;
+height: 150px;
+margin-left: 100px;
+margin-right: 100px;
+border-radius: 10px;
+margin-bottom: 110px;}
+/* end of styling last section */
+
+/* footer */
+.footer{
+  background: #1f2937;
+  display: flex;
+  align-items: center;
+height: 100px;
+justify-content: center;
+gap: 11px;}
+#copy,#c,#odin{color: white;
+font-size: 20px;
+font-weight: 500;}
+#c{ border: 1px solid white;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 15px;
+width: 15px;
+padding-bottom: 4px;
+font-size:25px ;}
